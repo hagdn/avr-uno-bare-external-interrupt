@@ -1,4 +1,4 @@
-# avr-uno-bare-external-interrupt
+# AVR - Arduino Uno: External Interrupt
 This code makes use of the first (INT0) external interrupt of the Arduino-Uno.
 This time, an external LED (on PIN7) is used as a demonstration that bit masking is important so as not to accidentally
 set a bit to HIGH or LOW because the interrupt pin and the output pin in this code are from the same pin group.
